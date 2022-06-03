@@ -32,6 +32,6 @@ for (genes in mousegenes2){
   btauLr[[genes]] <- data
 }
 
-btauLr = do.call('rbind',btauLr)
+btauLr = do.call('rbind',btauLr) 
 ```
 
